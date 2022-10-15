@@ -78,7 +78,7 @@ experiences:
         details: |
           Develop and maintain the low-level deep learning tensor library. Explore flexible
           code generation technologies.  
-            - Designed a tile based kernel fusion framework that can fuse memory-bounded operators
+            - Designed a tile-based kernel fusion framework that can fuse memory-bounded operators
             into a compute-intensive operator, such as Gemm and Convolution. 
             - Implemented functionalities of delivering jitted configurable and composable Gemm kernels 
             to cover long-tail cases and reduce binary size.
@@ -118,7 +118,7 @@ experiences:
         details: |
           Explore the state-of-art seismic imaging algorithms. Develop and maintain seismic data processing
           system, GeoEast Lightning. 
-            - Developed a single wave migration algorithm to generate high resolution seismic images for
+            - Developed a single wave migration algorithm to generate high-resolution seismic images for
             anisotropic media. 
             - Developed a least-square migration algorithm that recovers high-frequency signals of the seismic 
             images to improve the imaging quality. 
