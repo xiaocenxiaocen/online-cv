@@ -76,37 +76,29 @@ experiences:
         time: 2022 - Present
         company: NVIDIA, Beijing
         details: |
-          Describe your role here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-          Cum sociis natoque penatibus et magnis dis parturient montes,
-          nascetur ridiculus mus. Donec quam felis, ultricies nec,
-          pellentesque eu, pretium quis, sem. Nulla consequat massa quis
-          enim. Donec pede justo. Sed ut perspiciatis unde omnis iste natus
-          error sit voluptatem accusantium doloremque laudantium, totam rem
-          aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
-          architecto beatae vitae dicta sunt explicabo.
-            - Bullet point
-            - Bullet point
+          Develop and maintain the low-level deep learning tensor library. Explore flexible
+          code generation technologies.  
+            - Designed a tile based kernel fusion framework that can fuse memory-bounded operators
+            into a compute-intensive operator, such as Gemm and Convolution. 
+            - Delivered capabilities of Gemm Softmax and Gemm Layernorm fusion based on the kernel
+            fusion framework. 
       - role: Senior Deep Learning System Architect
         time: 2020 - 2021
         company: Megvii, Beijing
         details: |
-          Describe your role here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-          Cum sociis natoque penatibus et magnis dis parturient montes,
-          nascetur ridiculus mus. Donec quam felis, ultricies nec,
-          pellentesque eu, pretium quis, sem.
-            - Bullet point
-            - Bullet point
+          Develop and maintain the open-source deep learning framework, MegEngine. Optimize the E2E
+          performance of deep learning workloads on NVIDIA GPUs. 
+            - Developed the performant 4-bit integer quantized convolution kernels based on CUTLASS. 
+            - Optimized the performance of detection model in a real production pipeline by using the 4-bit
+            integer convolution kernels. 
+            - Developed the performant depthwise convolution kernels based on CUTLASS, including forward, 
+            backward data, and backward weight operators.
       - role: Deep Learning System Architect
         time: 2018 - 2019
         company: Megvii, Beijing
         details: |
-          Describe your role here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-          Cum sociis natoque penatibus et magnis dis parturient montes,
-          nascetur ridiculus mus. Donec quam felis, ultricies nec,
-          pellentesque eu, pretium quis, sem.
+          Develop performant deep learning kernels on mobile CPUs and GPUs. Optimize the E2E performance
+          of 
             - Bullet point
             - Bullet point
       - role: Geophysicist
@@ -140,11 +132,11 @@ projects:
       Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
     assignments:
       - title: MegEngine
-        link: "#hook"
+        link: "https://github.com/MegEngine/MegEngine"
         tagline: "A responsive website template designed to help startups promote, market and sell their products."
 
       - title: CUTLASS
-        link: "#"
+        link: "https://github.com/MegEngine/cutlass"
         tagline: "A responsive website template designed to help web developers/designers market their services."
 
 publications:
