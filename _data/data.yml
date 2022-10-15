@@ -91,13 +91,17 @@ experiences:
           Develop and maintain the open-source deep learning framework, MegEngine. Optimize the E2E
           performance of deep learning workloads on NVIDIA GPUs. 
             - Developed the performant 4-bit integer quantized convolution kernels based on CUTLASS. 
-            Deployed and optimized 4-bit integer quantized CNNs in real-world productions. Achieved 1.3x 
-            speedup over the 8-bit integer TensorRT quantized network. Improved the precision by 1% to 3%, 
-            ensuring the same QPS as the 8-bit quantized network in real-world production.
+            - Deployed 4-bit integer quantized CNNs in real-world productions. 
+            - Optimized the 4-bit integer quantized network, achieving 1.3x speedup over the 8-bit integer 
+            TensorRT quantized network with the same structure. 
+            - Improved the precision of a real-world production network by 1% to 3% by using 4-bit integer 
+            quantization, ensuring the same QPS as the 8-bit quantized network.
             - Developed the performant depthwise convolution kernels based on CUTLASS, including forward, 
-            backward data, and backward weight operators. The implementation was used by the CVPR 2022 paper, 
-            Scaling Up Your Kernels to 31x31: Revisiting Large Kernel Design in CNN. The optimization reduced 
-            the training time of the large kernel network in the above paper by 50%. 
+            backward data, and backward weight operators. 
+            - The implementation was used by the CVPR 2022 paper, Scaling Up Your Kernels to 31x31: 
+            Revisiting Large Kernel Design in CNN. 
+            - Reduced the training time of the large kernel network in the above paper by 50% by using the 
+            optimized depthwise convolution kernels. 
       - role: Deep Learning System Architect
         time: 2018 - 2019
         company: Megvii, Beijing
