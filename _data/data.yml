@@ -7,19 +7,18 @@ sidebar:
     education: True # set to False if you want education in main section instead of in sidebar
 
     # Profile information
-    name: Alan Doe
-    tagline: Full Stack Developer
-    avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
-
+    name: Xiao Zhang
+    tagline: Deep Learning Performance Architect
+    
     # Sidebar links
-    email: hello@webjeda.com
+    email: zx.math@gmail.com
     phone: 012 345 6789
     timezone: America/Cancun Timezone
     citizenship:
     website: blog.webjeda.com #do not add http://
     linkedin: alandoe
     xing: alandoe
-    github: sharu725
+    github: xiaocenxiaocen
     telegram: # add your nickname without '@' sign
     gitlab:
     bitbucket:
@@ -65,9 +64,9 @@ career-profile:
 education:
     title: Education
     info:
-      - degree: MSc in Computer Science
-        university: University of London
-        time: 2011 - 2012
+      - degree: MSc in Applied Mathematics
+        university: Tsinghua University
+        time: 2011 - 2013
         details: |
           Describe your study here lorem ipsum dolor sit amet, consectetuer
           adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
@@ -77,7 +76,7 @@ education:
             - Bullet point
             - Bullet point
       - degree: BSc in Applied Mathematics
-        university: Bristol University
+        university: Tsinghua University
         time: 2007 - 2011
         details: |
           Describe your study here lorem ipsum dolor sit amet, consectetuer
