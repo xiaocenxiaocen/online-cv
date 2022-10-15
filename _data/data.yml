@@ -40,9 +40,9 @@ sidebar:
 career-profile:
     title: Career Profile
     summary: |
-      8+ years experience of high-performance computing. 5+ years experience
-      of deep learning system. My interests lie in high-performance computing, 
-      deep learning system, and efficient code generation targets heterogeneous 
+      8+ years experience in high-performance computing. 5+ years experience
+      in deep learning systems. My interests lie in high-performance computing, 
+      deep learning system, and efficient code generation that targets heterogeneous 
       accelerators. 
 education:
     title: Education
@@ -118,9 +118,9 @@ experiences:
         details: |
           Explore the state-of-art seismic imaging algorithms. Develop and maintain seismic data processing
           system, GeoEast Lightning. 
-            - Developed a single wave migration algorithm that can generate high resolution seismic images for
+            - Developed a single wave migration algorithm to generate high resolution seismic images for
             anisotropic media. 
-            - Developed a least-square migration algorithm that recovers high frequency signals of the seismic 
+            - Developed a least-square migration algorithm that recovers high-frequency signals of the seismic 
             images to improve the imaging quality. 
       - role: Software Development Engineer
         time: 2013 - 2016
@@ -135,7 +135,7 @@ projects:
     assignments:
       - title: MegEngine
         link: "https://github.com/MegEngine/MegEngine"
-        tagline: "A fast, scalable, and user friendly deep learning framework"
+        tagline: "A fast, scalable, and user-friendly deep learning framework"
 
       - title: CUTLASS
         link: "https://github.com/MegEngine/cutlass"
@@ -148,7 +148,7 @@ publications:
     title: Publications
     intro: |
     papers:
-      - title: A pratical implementation of least-square migration
+      - title: A practical implementation of least-square migration
         link: "https://library.seg.org/doi/10.1190/segam2017-17687259.1"
         authors: Xiao Zhang, Nanxun Dai, Wenhui Li, Dong Wang, and Fei Wang
         conference: SEG, 2017
