@@ -80,8 +80,10 @@ experiences:
           code generation technologies.  
             - Designed a tile based kernel fusion framework that can fuse memory-bounded operators
             into a compute-intensive operator, such as Gemm and Convolution. 
-            - Delivered capabilities of Gemm Softmax and Gemm Layernorm fusion based on the kernel
-            fusion framework. 
+            - Implemented functionalities of delivering jitted configurable and composable Gemm kernels 
+            to cover long-tail cases and reduce binary size.
+            - Implemented functionalities of Gemm Softmax fusion and Gemm Layernorm fusion based on the 
+            kernel fusion framework. 
       - role: Senior Deep Learning System Architect
         time: 2020 - 2021
         company: Megvii, Beijing
@@ -89,77 +91,61 @@ experiences:
           Develop and maintain the open-source deep learning framework, MegEngine. Optimize the E2E
           performance of deep learning workloads on NVIDIA GPUs. 
             - Developed the performant 4-bit integer quantized convolution kernels based on CUTLASS. 
-            - Optimized the performance of detection model in a real production pipeline by using the 4-bit
-            integer convolution kernels. 
+            - Deployed and optimized 4-bit integer quantized CNNs in real-world productions. 
+            - Achieved 1.3x speedup over the 8-bit integer TensorRT quantized network. 
+            - Improved the precision by 1% to 3%, ensuring the same QPS as the 8-bit quantized network in 
+            real-world production.
             - Developed the performant depthwise convolution kernels based on CUTLASS, including forward, 
-            backward data, and backward weight operators.
+            backward data, and backward weight operators. 
+            - The depthwise convolution kernels was used by the CVPR 2022 paper, Scaling Up Your Kernels to 
+            31x31: Revisiting Large Kernel Design in CNN. 
+            - Reduced the training time of the large kernel network in the above paper by 50%. 
       - role: Deep Learning System Architect
         time: 2018 - 2019
         company: Megvii, Beijing
         details: |
           Develop performant deep learning kernels on mobile CPUs and GPUs. Optimize the E2E performance
-          of 
-            - Bullet point
-            - Bullet point
+          of deep learning workloads on mobile CPUs and GPUs. 
+            - Developed performant deep learning kernels by using NEON instructions on ARM platforms. 
+            - Developed performant deep learning kernels by using OpenCL on Adreno and Mali GPUs. 
+            - Optimized real-world deep learning workloads on mobile GPUs and achieved 1.3x speedup over
+            SNPE on Adreno platforms. 
       - role: Geophysicist
         time: 2016 - 2018
         company: BGP INC., CNPC, Beijing
         details: |
-          Describe your role here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-          Cum sociis natoque penatibus et magnis dis parturient montes,
-          nascetur ridiculus mus. Donec quam felis, ultricies nec,
-          pellentesque eu, pretium quis, sem.
-            - Bullet point
-            - Bullet point
+          Explore the state-of-art seismic imaging algorithms. Develop and maintain seismic data processing
+          system, GeoEast Lightning. 
+            - Developed a single wave migration algorithm that can generate high resolution seismic images for
+            anisotropic media. 
+            - Developed a least-square migration algorithm that recovers high frequency signals of the seismic 
+            images to improve the imaging quality. 
       - role: Software Development Engineer
         time: 2013 - 2016
         company: National Supercomputing Center in Tianjin, Tianjin
         details: |
-          Describe your role here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-          Cum sociis natoque penatibus et magnis dis parturient montes,
-          nascetur ridiculus mus. Donec quam felis, ultricies nec,
-          pellentesque eu, pretium quis, sem.
-            - Bullet point
-            - Bullet point
+          Develop high-performance computing applications on the Tianhe supercomputing system. Provide clients
+          with technical support.  
 
 projects:
     title: Projects
     intro: >
-      You can list your side projects or open source libraries in this
-      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
     assignments:
       - title: MegEngine
         link: "https://github.com/MegEngine/MegEngine"
-        tagline: "A responsive website template designed to help startups promote, market and sell their products."
+        tagline: "A fast, scalable, and user friendly deep learning framework"
 
       - title: CUTLASS
         link: "https://github.com/MegEngine/cutlass"
-        tagline: "A responsive website template designed to help web developers/designers market their services."
+        tagline: "Customized implicit Gemm convolution kernels based on official CUTLASS"
+        
+      - title: GeoEast Lightning
+        tagline: "A seismic imaging system that is capable of processing terabyte-scale data" 
 
 publications:
     title: Publications
     intro: |
-      You can list your publications in this section. Lorem ipsum dolor sit
-      amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
-      bibendum fringilla a eu lectus.
     papers:
-      - title: The Art of Computer Programming
-        link: "#"
-        authors: Donald E. Knuth
-        conference: Addison-Wesley, 1968
-
-      - title: "Genetic Programming III: Darwinian Invention &amp; Problem Solving"
-        link: "#"
-        authors: Koza, J.R., Andre, D., Bennett, F.H., Keane, M.A.
-        conference: "Morgan Kaufmann Publishers Inc., San Francisco, CA, USA, 1st edn. (1999)"
-
-      - title: A syntax directed compiler for Algol 60
-        link: "#"
-        authors: Edgar T. Irons
-        conference: "Comm. ACM 4 (1961), 51–55"
 
 skills:
     title: Skills &amp; Proficiency
