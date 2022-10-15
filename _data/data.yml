@@ -9,7 +9,8 @@ sidebar:
     # Profile information
     name: Xiao Zhang
     tagline: Deep Learning Performance Architect
-    
+    avatar: profile.jpg
+
     # Sidebar links
     email: zx.math@gmail.com
     phone:
